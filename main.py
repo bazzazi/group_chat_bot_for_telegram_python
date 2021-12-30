@@ -1,3 +1,19 @@
+###############          ##########        #######   #######        #########      #######       #
+#              #        #          #             #         #       #         #           #
+#               #       #          #            #         #        #         #          #        #
+#              #        #          #           #         #         #         #         #         #
+###############         ############          #         #          ###########        #          #
+#              #        #          #         #         #           #         #       #           #
+#               #       #          #        #         #            #         #      #            #
+#              #        #          #       #         #             #         #     #             #
+###############         #          #      #######    #######       #         #    #######        #
+
+# Developer: Mohammad Ali Bazzazi (me)
+
+# MY YOUTUBE CHANNEL: https://youtube.com/c/MohammadAliBazzazi
+
+########################### START ###########################
+
 # WRITE "pip install schedule" IN TERMINAL AND THEN...
 import schedule, requests, time
 
@@ -17,3 +33,5 @@ schedule.every(5).seconds.do(bot)
 while 1:
     time.sleep(1)
     schedule.run_pending()
+    
+########################### END ###########################
